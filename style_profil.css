@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 178vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+
+.titre{
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+    
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+.lock{
+    position: absolute;
+    top: 10%;
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    position: absolute;
+    top: 0;
+    max-width: 25%;
+}
+
+.nom{
+    position: absolute;
+    top: 25%;
+    max-width: 20%;
+    mix-blend-mode: multiply;
+}
+
+.txt1{
+   position: absolute;
+   top: 45%;
+   max-width: 30%;
+   mix-blend-mode: multiply;
+}
+
+.txt2{
+   position: absolute;
+   top: 57.5%;
+   left: 41.5%;
+   max-width: 20%;
+   mix-blend-mode: multiply;
+}
+
+.txt3{
+   position: absolute;
+   top: 76%;
+   max-width: 30%;
+   mix-blend-mode: multiply;
+}
+.img1{
+    position: absolute;
+    top: 30%;
+    left: -30%;
+    max-width: 95%;
+    mix-blend-mode: multiply;
+}
+
+.spirale{
+    position: absolute;
+    top: 35%;
+    right: 38%;
+    max-width: 12%;
+}
+
+.bonhommes{
+    position: absolute;
+    top: 88%;
+    left: 52%;
+    max-width: 50%;
+    mix-blend-mode: multiply;
+}

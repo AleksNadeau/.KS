@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 400vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+
+.titre{
+    width: 80vw;
+    height: 20vh;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+    
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.texte-explicatif{
+    width: 24%;
+    height: 50%;
+    position: absolute;
+    top: 23%;
+    right: 20%;
+    white-space: pre;
+}
+
+.texte-explicatif p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.boutons{
+    background: #d8d8d8b9;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 7%;
+  height: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#precedent{
+    position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+#suivant{
+    position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+.boutons:hover{
+    background-color: #c0c0c0c9;
+}
+
+.boutons:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.fleche{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+.gif{
+    position: absolute;
+    top: 27%;
+    right: 2%;
+    width: 21.5%;
+}
+
+.gifsignature{
+    position: absolute;
+    top: 24%;
+    left: 40%;
+    width: 12%;
+}
+
+.img1{
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    width: 50%;
+}
+
+.img2{
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    width: 20%;
+}
+
+.img{
+    max-width: 100%;
+}
+
+.carre1{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 12vw;
+  height: 20vw;
+  position: absolute;
+  top: 108%;
+  right: 18.1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carre2{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 12vw;
+  height: 20vw;
+  position: absolute;
+  top: 153%;
+  right: 18.1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carre3{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 12vw;
+  height: 20vw;
+  position: absolute;
+  top: 198%;
+  right: 18.1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img6{
+    position: absolute;
+    top: 220%;
+    right: 2%;
+    width: 25%;
+}
+
+.img7{
+    position: absolute;
+    top: 220%;
+    right: 29%;
+    width: 25.7%;
+}
+
+.img8{
+    position: absolute;
+    top: 220%;
+    right: 56.6%;
+    width: 25.25%;
+}
+
+.img9{
+    position: absolute;
+    top: 285%;
+    left: 5%;
+    width: 35%;
+}
+
+.ornement{
+    position: absolute;
+    top: -2%;
+    left: 0;
+    mix-blend-mode: multiply;
+    transform: scaleX(-1);
+    width: 100%;
+}
+
+
+.carre4{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 12vw;
+  height: 20vw;
+  position: absolute;
+  top: 336%;
+  left: 36.1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carre5{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 12vw;
+  height: 20vw;
+  position: absolute;
+  top: 336%;
+  left: 51%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

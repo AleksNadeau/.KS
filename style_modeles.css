@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 638vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+
+.titre{
+    width: 80vw;
+    height: 20vh;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+    
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.texte-explicatif{
+    width: 24%;
+    height: 50%;
+    position: absolute;
+    top: 24%;
+    right: 2%;
+    white-space: pre;
+}
+
+.texte-explicatif p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.boutons{
+    background: #d8d8d8b9;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 7%;
+  height: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#precedent{
+    position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+#suivant{
+    position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+.boutons:hover{
+    background-color: #c0c0c0c9;
+}
+
+.boutons:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.fleche{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+.img1{
+    position: absolute;
+    top: 38%;
+    right: 5%;
+    max-width: 40%;
+    mix-blend-mode: multiply;
+}
+
+.img2{
+    position: absolute;
+    top: 3%;
+    left: -2%;
+    max-width: 90%;
+    mix-blend-mode: multiply;
+}
+
+.img3{
+    position: absolute;
+    top: 210%;
+    right: -5%;
+    max-width: 50%;
+    mix-blend-mode: multiply;
+}
+
+.carre1{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 26%;
+  height: 70%;
+  position: absolute;
+  top: 190%;
+  left: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images{
+    max-width: 30%;
+    position: absolute;
+  top: 190%;
+  left: 43%;
+  mix-blend-mode: multiply;
+}
+
+.img4{
+    position: absolute;
+    top: 70%;
+    right: -5%;
+    max-width: 20%;
+    mix-blend-mode: multiply;
+}
+
+.img5{
+    position: absolute;
+    top: 260%;
+    right: 30%;
+    max-width: 50%;
+    mix-blend-mode: multiply;
+}
+
+.img6{
+    position: absolute;
+    top: 330%;
+    left: -5%;
+    max-width: 70%;
+    mix-blend-mode: multiply;
+}
+
+.img7{
+    position: absolute;
+    top: 418%;
+    left: -2%;
+    max-width: 40%;
+    mix-blend-mode: multiply;
+}
+
+.img8{
+    position: absolute;
+    top: 400%;
+    right: -15%;
+    max-width: 70%;
+    mix-blend-mode: multiply;
+}
+
+.img9{
+    position: absolute;
+    top: 495%;
+    right: 50%;
+    max-width: 55%;
+    mix-blend-mode: multiply;
+}
+
+.img10{
+    position: absolute;
+    top: 540%;
+    right: 30%;
+    max-width: 40%;
+    mix-blend-mode: multiply;
+}

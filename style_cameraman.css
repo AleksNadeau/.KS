@@ -1,0 +1,221 @@
+/* PAGE CSS POUR LES PAGES DE PROJET*/
+body{
+    background-color: rgb(255, 255, 255);
+    height: 230vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 230vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+.titre{
+    width: 80vw;
+    height: 20vh;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.couleur{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    width: 70%;
+    height: auto;
+    opacity: 1;
+}
+
+.noir{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    width: 70%;
+    height: auto;
+    opacity: 1;
+}
+
+.noir:hover{
+    opacity: 0;
+}
+
+.texte-explicatif{
+    width: 24%;
+    height: 50%;
+    position: absolute;
+    top: 24%;
+    left: 2%;
+    white-space: pre;
+}
+
+.texte-explicatif p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.esquisse{
+    mix-blend-mode: multiply;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: -2%;
+    pointer-events: none;
+}
+
+.esquisse2{
+    mix-blend-mode: multiply;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    right: -2%;
+    pointer-events: none;
+}
+
+.carre1{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 27vw;
+  height: 20vw;
+  position: absolute;
+  top: 19%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup1{
+    position: absolute;
+    max-width: 95%;
+    opacity: 1;
+}
+
+.bat1{
+    position: absolute;
+    max-width: 95%;
+    opacity: 1;
+    animation: apparition 5s infinite;
+    animation-timing-function: steps(6);
+}
+
+.carre2{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 27vw;
+  height: 20vw;
+  position: absolute;
+  top: 52%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup2{
+    position: absolute;
+    max-width: 95%;
+    opacity: 1;
+}
+
+.bat2{
+    position: absolute;
+    max-width: 95%;
+    opacity: 1;
+    animation: apparition 5s infinite;
+    animation-timing-function: steps(6);
+    animation-delay: -2s;
+}
+
+.boutons{
+    background: #d8d8d8b9;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 7%;
+  height: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.boutons:hover{
+    background-color: #c0c0c0c9;
+}
+
+.boutons:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.fleche{
+    width: 100%;
+    height: auto;
+}
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+@keyframes apparition{
+    0%{opacity: 0;}
+    10%{opacity: 0;}
+    50%{opacity: 1;}
+    90%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+#precedent{
+    position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+.lock{
+    position: absolute;
+    top: 86%;
+    width: 100vw;
+    height: 140vh;
+}

@@ -1,0 +1,300 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 380vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+
+.titre{
+    width: 80vw;
+    height: 20vh;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+    
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.texte-explicatif{
+    width: 24%;
+    height: 50%;
+    position: absolute;
+    top: 24%;
+    right: 2%;
+    white-space: pre;
+}
+
+.texte-explicatif p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.boutons{
+    background: #d8d8d8b9;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 7%;
+  height: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#precedent{
+    position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+#suivant{
+    position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+.boutons:hover{
+    background-color: #c0c0c0c9;
+}
+
+.boutons:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.fleche{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+.meme1{
+    width: 16%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 15.4%;
+}
+
+.meme2{
+    width: 19.65%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 32.4%;
+}
+
+.meme3{
+    width: 19.65%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
+
+.meme4{
+    width: 44%;
+    height: auto;
+    position: absolute;
+    top: 72.5%;
+    left: 2%;
+}
+
+.meme5{
+    width: 19.8%;
+    height: auto;
+    position: absolute;
+    top: 72.5%;
+    left: 47.8%;
+}
+
+.meme6{
+    width: 28.5%;
+    height: auto;
+    position: absolute;
+    top: 72.5%;
+    right: 2%;
+}
+
+.meme7{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 115%;
+    left: 23.5%;
+}
+
+.meme8{
+    width: 18.6%;
+    height: auto;
+    position: absolute;
+    top: 115%;
+    right: 32%;
+}
+
+.meme9{
+    width: 29%;
+    height: auto;
+    position: absolute;
+    top: 115%;
+    right: 2%;
+}
+
+.meme10{
+    width: 24%;
+    height: auto;
+    position: absolute;
+    top: 159%;
+    left: 15.4%;
+}
+
+.meme11{
+    width: 16%;
+    height: auto;
+    position: absolute;
+    top: 159%;
+    left: 40.5%;
+}
+
+.meme12{
+    width: 19.45%;
+    height: auto;
+    position: absolute;
+    top: 159%;
+    left: 57.6%;
+}
+
+.propagande{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: 200%;
+    mix-blend-mode: multiply;
+}
+
+.insta{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    right: 11%;
+    top: 218%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.insta:hover{
+    mix-blend-mode: exclusion;
+}
+
+.insta:active{
+    padding: 16px 14px 14px 16px;
+}
+
+.rondvert{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: scale(1.5);
+}
+
+.rondjaune{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 278%;
+    left: 6%;
+}
+
+.rondjaune2{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 201%;
+    right: -30%;
+}
+
+.gif{
+    position: absolute;
+    top: 280%;
+    left: 20%;
+    width: 60%;
+    height: auto;
+}
+
+.carre1{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 13vw;
+  height: 3vh;
+  position: absolute;
+  top: 272%;
+  right: 20.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carre1 p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.carre1:hover{
+    background-color: #c0c0c0;
+}
+
+.carre1:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}

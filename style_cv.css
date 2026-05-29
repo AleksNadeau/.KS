@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv{
+    position: absolute;
+    top: 0;
+    max-width: 50%;
+}
+
+.fond{
+    position: fixed;
+    
+}

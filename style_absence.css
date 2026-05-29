@@ -1,0 +1,288 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+.texture-projet{
+    width: 100vw;
+    height: 470vh;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: multiply;
+}
+
+.titre{
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.titre p{
+    font-family: monospace;
+    font-size: 8vw;
+    mix-blend-mode: multiply;
+    text-align: right;
+    
+}
+
+#annee{
+    font-family: monospace;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+.texte-explicatif{
+    width: 24%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    white-space: pre;
+}
+
+.texte-explicatif p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.boutons{
+    background: #d8d8d8b9;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 7%;
+  height: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#precedent{
+    position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+#suivant{
+    position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+.boutons:hover{
+    background-color: #c0c0c0c9;
+}
+
+.boutons:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.fleche{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.maison{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    height: 79px;
+    width: auto;
+    border: 2px outset #ff6652;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.maison:active{
+    border-style: inset;
+}
+
+
+
+.img{
+    max-width: 100%;
+}
+
+.carre1{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+ width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 98%;
+  left: 34.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+
+.carre2{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 151%;
+  right: 37.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+
+.carre3{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 204%;
+  left: 34.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+
+.carre4{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 265%;
+  left: 34.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+
+.carre5{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 310%;
+  right: 38.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+
+.carre6{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 50vw;
+  height: 28vw;
+  position: absolute;
+  top: 371%;
+  right: 38.1%;
+  display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.img7{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 387%;
+    right: -20%;
+}
+
+.ornement{
+    position: absolute;
+    top: 116%;
+    right: -5%;
+    mix-blend-mode: multiply;
+    width: 50%;
+}
+
+.ornement2{
+    position: absolute;
+    top: 220%;
+    left: -20%;
+    mix-blend-mode: multiply;
+    width: 80%;
+}
+
+.ornementoui{
+    position: absolute;
+    top: 383%;
+    left: -10%;
+    width: 30%;
+}
+
+.site-lien{
+    background: #d8d8d8;
+  border: 2px outset #ffffff;
+  padding: 15px 15px;
+  outline: none;
+  width: 10%;
+  height: 3%;
+  position: absolute;
+  top: 65%;
+  right: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.site-lien p{
+    font-family: monospace;
+    font-size: 1.15vw;
+}
+
+.site-lien:hover{
+    background-color: #c0c0c0;
+}
+
+.site-lien:active{
+    border-style: inset;
+  padding: 16px 14px 14px 16px;
+}
+
+.lock{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 60vw;
+    height: auto;
+}
+
+.video{
+    width: 100%;
+}
